@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-space-item{
+    width: 100%;
+}
+.ant-btn{
+    background-color: #1c74d8;
+    color: white;
+}
+
+.rce-avatar{
+    border-radius: 50%;
+}
+.chat-box::-webkit-scrollbar{
+    width: 6px;
+    background-color: transparent;
+}
+.chat-box::-webkit-scrollbar-thumb{
+    background-color:  rgb(44, 44, 44);
+}
+.users-scroll::-webkit-scrollbar{
+    width: 4px;
+    background-color: transparent;
+}
+.users-scroll::-webkit-scrollbar-thumb{
+    background-color:  rgb(44, 44, 44);
+}
+
+.rce-mbox{
+    background: #0b1114 !important;
+}
+.rce-mbox-left-notch, .rce-mbox-right-notch{
+    fill: #0b1114 !important;
+}
+.rce-mbox-text{
+    color: white;
+}
+.rce-mbox-time{
+    color: gray !important;
+}
+.ant-modal-content, .ant-modal-title{
+    background-color: #121C22 !important;
+    color: white !important;
+}
+.ant-modal-close{
+    color: rgb(179, 179, 179) !important;
+}
